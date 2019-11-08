@@ -130,3 +130,13 @@ body {
   background-color: black;
 }
 /* footer section end */
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+}
