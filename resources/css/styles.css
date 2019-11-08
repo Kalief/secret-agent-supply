@@ -76,6 +76,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+#hidden {
+  display: none;
+}
 /* supplies section end */
 
 /* products section */
@@ -138,5 +142,17 @@ body {
 
   .glasses {
     display: none;
+  }
+
+  .supplies span {
+    display: none;
+  }
+
+  .supplies .container {
+    justify-content: center;
+  }
+
+  #hidden {
+    display: inline-block;
   }
 }
